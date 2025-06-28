@@ -1,0 +1,89 @@
+
+.Banner{
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/src/img/photo-1493256338651-d82f7acb2b38.jfif);
+    width: 100%;
+    height: 75vh;
+
+    background-size: cover;
+    
+}
+
+.Banner-conteiner {
+    
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding: 45px;
+}
+
+p{
+    color: bisque;
+    font-size: 23px;
+    line-height: 1.5;
+    padding: 1px;
+}
+@media screen and (max-width: 500px) {
+    p
+    {
+        text-align: center;
+    }
+
+   
+    
+}
+
+.btn{
+     width: 7rem;
+  position: fixed;
+  bottom: 5%;
+  right: 0;
+ 
+}
+
+
+.contenedor-destacado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 25px;
+}
+
+.coder-card{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.coder-card img{
+    width: 100%;
+    height: 300px;
+}
+
+.coder-card1 img{
+    width: 325px;
+   padding: 35px;
+    
+    
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.Publicidad{
+       display: flex;
+    background-image:  url(/src/img/Brown\ Black\ Vintage\ Barbershop\ Presentation.jpg);
+    width: 100%;
+    height: 65vh;
+background-position: center;
+    background-size: cover;
+    
+}
+
+footer{
+    background-color: rgb(24, 0, 0);
+    text-align: center;
+    width: 100%;
+}

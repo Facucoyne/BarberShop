@@ -1,0 +1,70 @@
+
+.main-about{
+    width: 100%;
+    padding: 100px 50px;
+    
+    
+}
+
+.section-about{
+    display: flex;
+    gap: 40px;
+}
+
+.container-image{
+    width: 100%;
+   padding: 20px;
+ 
+}
+
+.container-image img{
+    width: 100%;
+    
+    border-radius: 20px 20px;
+}
+
+.container-about-me{
+   margin: auto;
+    font-size: 15px;
+    
+}
+
+
+
+.container-about-me h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.Parrafo{
+    color: rgb(39, 39, 39);
+    text-align: center;
+    padding: 5px;
+    
+}
+    
+@media screen and (max-width: 768px) {
+    .section-about{
+        flex-direction: column;
+        
+        
+    }
+   
+    .container-about-me h2 {
+        font-size:30px;
+    }
+
+    .container-about-me p {
+        font-size:20px;
+        text-align: center;
+        
+    }
+
+    .container-image img{
+        width: 110%;
+    }
+
+
+}
