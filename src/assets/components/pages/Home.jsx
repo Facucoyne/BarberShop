@@ -1,6 +1,7 @@
 
 import React from 'react'
 import "./banner.css"
+import img01 from "/src/img/img01.png"
 
 
 export const Home = () => {
@@ -21,7 +22,7 @@ export const Home = () => {
     <h1 className='heading'>Novedades</h1>
     <div className='contenedor-destacado'>
     <div className='coder-card'>
-      <img src="./src/img/Post Instagram Barberia Minimalista Moderno Amarillo.png" alt="" />
+      <img src={img01} alt="" />
     </div>
 
      <div className='coder-card'>
