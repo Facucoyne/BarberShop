@@ -2,6 +2,8 @@
 import React from 'react'
 import "./banner.css"
 import img01 from "/src/img/img01.png"
+import img02 from "/src/img/img02.png"
+import img03 from "/src/img/img03.png"
 
 
 export const Home = () => {
@@ -26,12 +28,12 @@ export const Home = () => {
     </div>
 
      <div className='coder-card'>
-      <img src="./src/img/Post para Instagram Barbería Moderno Minimalista Negro.png" alt="" />
+      <img src={img02} alt="" />
     </div>
 
 
      <div className='coder-card'>
-      <img src="./src/img/Post de instagram barberia profesional negro amarillo.png" alt="" />
+      <img src={img03} alt="" />
     </div>
 
     </div>
