@@ -1,12 +1,14 @@
 
 import React from 'react'
 import "./about.css"
+import img01 from "/src/img/about.png"
+
 export const About = () => {
   return (
     <div className='main-about'>
       <section className='section-about'>
         <div className='container-image'>
-        <img src="./src/img/about.png" alt="" />
+        <img src={img01} alt="" />
 
         </div>
       <div className='container-about-me'>

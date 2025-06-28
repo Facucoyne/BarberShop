@@ -4,8 +4,9 @@ import "./banner.css"
 import img01 from "/src/img/img01.png"
 import img02 from "/src/img/img02.png"
 import img03 from "/src/img/img03.png"
-import img04 from "/src/img/img04.png"
-import imgt from "/src/img/imgt.png"
+import btn from "/src/img/btn.png"
+
+
 
 
 export const Home = () => {
@@ -13,11 +14,11 @@ export const Home = () => {
     <>
     <div className='Banner'>
       <div className='Banner-conteiner'>
-      <img src={imgt} alt="" />
+      
     <p>Los esperamos para brindarle la mejor atención</p>
     <p>Trabajamos para lograr un trabajo impecable</p>
     <a href="https://wa.me/541154773772">
-      <img src={img04} alt="" className='btn' />
+      <img src={btn} alt="" className='btn' />
     </a>
       </div>
        
