@@ -4,7 +4,7 @@ import "./banner.css"
 import img01 from "/src/img/img01.png"
 import img02 from "/src/img/img02.png"
 import img03 from "/src/img/img03.png"
-import btn from "/src/img/Boton-Whatsapp.png"
+import img04 from "/src/img/img04.png"
 
 
 export const Home = () => {
@@ -16,7 +16,7 @@ export const Home = () => {
     <p>Los esperamos para brindarle la mejor atención</p>
     <p>Trabajamos para lograr un trabajo impecable</p>
     <a href="https://wa.me/541154773772">
-      <img src={btn} alt="" className='btn' />
+      <img src={img04} alt="" className='btn' />
     </a>
       </div>
        
