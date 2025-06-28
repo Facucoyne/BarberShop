@@ -5,6 +5,7 @@ import img01 from "/src/img/img01.png"
 import img02 from "/src/img/img02.png"
 import img03 from "/src/img/img03.png"
 import img04 from "/src/img/img04.png"
+import img05 from "/src/img/img05.png"
 
 
 export const Home = () => {
@@ -12,7 +13,7 @@ export const Home = () => {
     <>
     <div className='Banner'>
       <div className='Banner-conteiner'>
-      <img src="./src/img/cooltext485401287776301.png" alt="" />
+      <img src={img05} alt="" />
     <p>Los esperamos para brindarle la mejor atención</p>
     <p>Trabajamos para lograr un trabajo impecable</p>
     <a href="https://wa.me/541154773772">
