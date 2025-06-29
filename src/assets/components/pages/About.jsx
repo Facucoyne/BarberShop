@@ -20,7 +20,7 @@ Hola, soy Benja Liempe, barbero con [años de experiencia o tiempo trabajando] e
       </div>
       </section>
       <a href="https://wa.me/541154773772">
-      <img src="./src/img/Boton-Whatsapp.png" alt="" className='btn' />
+      <img src="" alt="" className='btn' />
     </a>
     </div>
   )
