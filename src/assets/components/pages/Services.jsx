@@ -1,5 +1,10 @@
 
 import React from 'react'
+import img1 from "/src/img/trabajo1.jfif"
+import img2 from "/src/img/trabajo2.jfif"
+import img3 from "/src/img/trabajo3.jfif"
+import img4 from "/src/img/trabajo4.jfif"
+import btn from "/src/img/btn.png"
 
 import "./service.css"
 export const Services = () => {
@@ -9,22 +14,22 @@ export const Services = () => {
 
          <div className='contenedor-destacado'>
     <div className='coder-card1'>
-      <img src="./src/img/trabajo1.jfif" alt="" />
+      <img src={img1} alt="" />
     </div>
 
 
      <div className='coder-card1'>
-      <img src="./src/img/trabajo2.jfif" alt="" />
+      <img src={img2} alt="" />
     </div>
 
 
      <div className='coder-card1'>
-      <img src="./src/img/trabajo3.jfif" alt="" />
+      <img src={img3} alt="" />
     </div>
 
 
 <div className='coder-card1'>
-      <img src="./src/img/trabajo4.jfif" alt="" />
+      <img src={img4} alt="" />
     </div>
 
 
@@ -33,7 +38,7 @@ export const Services = () => {
     
 
     <a href="https://wa.me/541154773772">
-      <img src="./src/img/Boton-Whatsapp.png" alt="" className='btn' />
+      <img src={btn} alt="" className='btn' />
     </a>
     </div>
 

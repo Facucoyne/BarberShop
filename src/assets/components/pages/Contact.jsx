@@ -1,12 +1,14 @@
 import React from 'react'
 import "./contact.css"
+import btn from "/src/img/btn.png"
+import img2 from "/src/img/barberia.jpg"
 export const Contact = () => {
   return (
     <div>
        <div className='main-about'>
       <section className='section-about'>
         <div className='container-image'>
-        <img src="./src/img/barberia.jpg" alt="" />
+        <img src={img2} alt="" />
 
         </div>
       <div className='container-about-me'>
@@ -21,7 +23,7 @@ export const Contact = () => {
 
     </div>
     <a href="https://wa.me/541154773772">
-      <img src="./src/img/Boton-Whatsapp.png" alt="" className='btn' />
+      <img src={btn} alt="" className='btn' />
     </a>
     </div>
   )
